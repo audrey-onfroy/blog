@@ -1,0 +1,4 @@
+baseURL = "https://audrey-onfroy.github.io/"
+languageCode = "en-us"
+title = "AO"
+theme = "papermod"

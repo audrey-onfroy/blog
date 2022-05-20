@@ -1,0 +1,7 @@
+[submodule "aoblog/themes/papermod"]
+	path = aoblog/themes/papermod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "aoblog/public"]
+	path = aoblog/public
+	url = https://github.com/audrey-onfroy/audrey-onfroy.github.io.git
+	branch = main
