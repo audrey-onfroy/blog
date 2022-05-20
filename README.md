@@ -9,7 +9,7 @@ This repository contains the structure for my [Github page](https://audrey-onfro
 * **blog** (here) contains the structure for my [Github page](https://audrey-onfroy.github.io) and is built with [hugo](https://gohugo.io/)
 * **audrey-onfroy.github.io** repositories is built as a submodule of the public directory in **blog**
 
-## Some helpful command
+## Some helpful commands
 
 * visualize the website with localhost :
 
