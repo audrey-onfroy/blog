@@ -1,4 +1,72 @@
 baseURL = "https://audrey-onfroy.github.io/"
 languageCode = "en-us"
 title = "AO"
-theme = "papermod"
+theme = "ramium"
+
+#disqusShortname = "disqus-code"
+#googleAnalytics = "analytics-code"
+#pluralizeListTitles = false
+#enableemoji = false
+
+[params]
+    description = "A description for the meta tag of the site"
+    googleSearch = "google-search-code"
+    showDate = true # make false if dont want to show date for evergeen articles
+    math = false # best to enable this in the front matter of a page
+    githubProfile = "audrey-onfroy"
+    tagsInHome = 40     # set zero to not show in home page
+    sectionsInHome = 5  # set zero to not show in home page
+    paginatePostsPerPage = 5
+    paginateTagsPerPage = 6
+
+[taxonomies]
+    tag = "tags"
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+# ---------------------------------------------------------
+
+[menu]
+    [[menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 1
+    
+    [[menu.main]]
+        name = "Posts"
+        identifier = "post"
+        url = "/posts/"
+        weight = 2
+
+    [[menu.main]]
+        identifier = "vignette"
+        name = "Vignettes"
+        weight = 3
+            [[menu.main]]
+                parent = "vignette"
+                name = "A"
+                url = "/vignettes/A/A/"
+                weight = 1
+            [[menu.main]]
+                parent = "vignette"
+                name = "B"
+                url = "/vignettes/B/B/"
+                weight = 2
+            [[menu.main]]
+                parent = "vignette"
+                name = "C"
+                url = "/vignettes/C/C/"
+                weight = 3
+
+#  [[menu.main]]
+#    identifier = "github"
+#    # no name
+#    # pre is a non existing image : white space
+#    # post is the logo : good location
+#    pre = "<img src='/image/github2.png' style='height: 20px; width: 20px;' alt=' '>"
+#    post = "<img src='/image/github.png' style='height: 20px; width: 20px;' alt='.'>"
+#    url = "https://github.com/audrey-onfroy"
+#    weight = 50
+
+# ---------------------------------------------------------
