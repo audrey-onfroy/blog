@@ -1,4 +1,4 @@
-baseURL = "https://audrey-onfroy.github.io/"
+baseURL = "https://audrey-onfroy.github.io"
 languageCode = "en-us"
 title = "AO"
 theme = "ramium"
@@ -9,16 +9,16 @@ theme = "ramium"
 #enableemoji = false
 
 [params]
-    description = "A description for the meta tag of the site"
-    googleSearch = "google-search-code"
-    showDate = true # make false if dont want to show date for evergeen articles
-    math = false # best to enable this in the front matter of a page
-    githubProfile = "audrey-onfroy"
-    tagsInHome = 40     # set zero to not show in home page
-    sectionsInHome = 5  # set zero to not show in home page
+    description = "audrey-onfroy Github Pages"
+    googleSearch = false            # "google-search-code"
+    showDate = true                 # make false if dont want to show date for evergeen articles
+    math = false                    # best to enable this in the front matter of a page
+    githubProfile = "audrey-onfroy" # link to GitHub in top right corner
+    tagsInHome = 40                 # set zero to not show in home page
+    sectionsInHome = 5              # set zero to not show in home page
     paginatePostsPerPage = 5
     paginateTagsPerPage = 6
-
+    
 [taxonomies]
     tag = "tags"
 
