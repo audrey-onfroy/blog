@@ -8,10 +8,9 @@
 [submodule "aoblog/themes/garden"]
 	path = aoblog/themes/garden
 	url = https://github.com/paulmartins/hugo-digital-garden-theme.git
-[submodule "aoblog/themes/ramium"]
-	path = aoblog/themes/ramium
-	url = https://github.com/rafed/ramium.git
 [submodule "aoblog/themes/ananke"]
 	path = aoblog/themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
-
+[submodule "aoblog/themes/ramium2"]
+	path = aoblog/themes/ramium
+	url = https://github.com/rafed/ramium.git
